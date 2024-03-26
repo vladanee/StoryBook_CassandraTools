@@ -23,3 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 *storybook.log
+
+# .gitignore
+.cache/
+package-lock.json
+node_modules/
