@@ -22,7 +22,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:storybook/recommended"
     ]
   },
   "browserslist": {
@@ -131,6 +132,7 @@
     "@storybook/react": "^8.1.0-alpha.4",
     "@storybook/react-webpack5": "^8.1.0-alpha.4",
     "@storybook/test": "^8.1.0-alpha.4",
+    "eslint-plugin-storybook": "^0.8.0",
     "prop-types": "^15.8.1",
     "storybook": "^8.1.0-alpha.4",
     "webpack": "^5.91.0"
