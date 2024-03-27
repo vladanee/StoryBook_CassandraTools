@@ -1,0 +1,89 @@
+.cardContainer {
+  height: 470px;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  background: #fff;
+  border: 0.2px solid #bebebe;
+  box-shadow: 4px 4px 4px rgba(166, 166, 166, 0.25);
+  font-size: 16px;
+  padding: 25px;
+  ul {
+    padding: 10px 0 8px 20px;
+  }
+  .type {
+    display: inline;
+  }
+  .cardTitle {
+    a {
+      text-decoration: none;
+    }
+    .title {
+      color: #0f2d75;
+      font-weight: 700;
+      font-size: 24px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -ms-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-line-clamp: 1;
+      -moz-line-clamp: 1;
+      -ms-line-clamp: 1;
+      line-clamp: 1;
+    }
+  }
+  .description {
+    color: #a6a6a6;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    hyphens: auto;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 3;
+    -moz-line-clamp: 3;
+    -ms-line-clamp: 3;
+    line-clamp: 3;
+  }
+  .statsContainer {
+    border-top: 1px solid #eee;
+    padding: 18px;
+    margin: 25px -18px 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.entypoTwitterIcon {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.cardContainer:hover {
+  background-color: #2161ff;
+  path {
+    fill: white;
+  }
+  .title,
+  .description,
+  h6,
+  p {
+    color: #ffff;
+  }
+  .statContainer,
+  span {
+    color: #ffff !important;
+  }
+  .iconColor {
+    color: red !important;
+  }
+}
+
+.iconColor {
+  color: red !important;
+}
