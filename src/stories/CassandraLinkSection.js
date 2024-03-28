@@ -89,7 +89,7 @@ const CassandraLinkSection = () => {
         sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', mx: 'auto' }}
       >
         <Box sx={{ maxWidth: { xs: '100%', sm: '80%' }, mx: 'auto' }}>
-  <img src="../../images/trainingAD-img.svg" alt="Cassandra.Link Section" style={{ width: '100%' }} />
+  <StaticImage src=".././images/trainingAD-img.svg" alt="Cassandra.Link Section" style={{ width: '100%' }} />
 </Box>
       </Grid>
     </Grid>
