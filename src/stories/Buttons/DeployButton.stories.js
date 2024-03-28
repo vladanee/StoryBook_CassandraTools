@@ -10,14 +10,13 @@ export default {
     layout: 'centered',
   },
   argTypes: {
-    repo: { control: 'text' },
-    className: { control: 'text' },
+    repo: { control: 'text', description: 'The repository URL for deploying to Netlify.' },
   },
 };
 
-export const DefaultDeployButton = {
-  args: {
-    repo: 'https://github.com/your-repo/your-project',
-    className: '',
-  },
+const Template = (args) => <DeployButton {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {
+  repo: 'https://github.com/your/repo',
 };
