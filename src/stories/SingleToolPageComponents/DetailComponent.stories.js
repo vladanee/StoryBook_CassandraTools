@@ -1,28 +1,18 @@
-// DetailComponent.stories.js
+// Assuming your DetailComponent and its path are correctly defined
 import React from 'react';
 import DetailComponent from './DetailComponent';
 
-const Template = (args) => <DetailComponent {...args} />;
-
 export default {
-  title: 'Components/DetailComponent',
+  title: 'Single Tool Page Components/DetailComponent',
   component: DetailComponent,
+  // Add more configuration here as needed
 };
 
+// Template for your stories
+const Template = (args) => <DetailComponent {...args} />;
+
+// Default story
 export const Default = Template.bind({});
 Default.args = {
-  data: {
-    singleReposData: {
-      edges: [
-        {
-          node: {
-            homepage: 'https://example.com',
-            svn_url: 'https://github.com/example',
-            name: 'Example Project',
-            stargazers_count: 200,
-          },
-        },
-      ],
-    },
-  },
+  // Default props for your DetailComponent
 };
