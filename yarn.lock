@@ -3078,6 +3078,18 @@
     polished "^4.2.2"
     uuid "^9.0.0"
 
+"@storybook/addon-actions@^8.0.5":
+  version "8.0.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.0.5.tgz#a3b6cb4ab319c200b498c379ff54672e460a1ce7"
+  integrity sha512-l1UBvD61DRcfuBTkdqMp2K+60M1QpvhNpYxMmJ/JEYQjzWTg/s9gLmX8eSjgA5bi0sjjJ5i1ddr9d8nHrmwfPA==
+  dependencies:
+    "@storybook/core-events" "8.0.5"
+    "@storybook/global" "^5.0.0"
+    "@types/uuid" "^9.0.1"
+    dequal "^2.0.2"
+    polished "^4.2.2"
+    uuid "^9.0.0"
+
 "@storybook/addon-backgrounds@8.1.0-alpha.4", "@storybook/addon-backgrounds@8.1.0-alpha.5":
   version "8.1.0-alpha.4"
   resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-8.1.0-alpha.4.tgz#108f16ea876245c6b81bd8c97e23d957dafbf0ef"
@@ -3588,7 +3600,7 @@
     ts-dedent "^2.0.0"
     util "^0.12.4"
 
-"@storybook/core-events@8.1.0-alpha.4", "@storybook/core-events@8.1.0-alpha.5":
+"@storybook/core-events@8.0.5", "@storybook/core-events@8.1.0-alpha.4", "@storybook/core-events@8.1.0-alpha.5":
   version "8.1.0-alpha.4"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-8.1.0-alpha.4.tgz#f6cf8ba2ab543a0dd658a4759d63ed67cff692d8"
   integrity sha512-UoTrCpcxjJKZytCmCueWeFcYBXZ+dIPhezjg9UMUc4Lk8B2/0NybffcXOHWJXktNWLPqe+ZX97vyukJPUUcsag==
