@@ -1,3 +1,4 @@
+import React from 'react'
 import { usePagination } from 'react-instantsearch-hooks-web'
 import Pagination from '../UI/Pagination/Pagination'
 

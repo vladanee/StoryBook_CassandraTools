@@ -1,3 +1,4 @@
+import React from 'react'
 import { useMenu } from 'react-instantsearch-hooks-web'
 import CustomFilter from '../UI/Filter/CustomFilter'
 

@@ -1,3 +1,4 @@
+import React from 'react'
 import { Box } from '@mui/material'
 import { useSearchBox } from 'react-instantsearch-hooks-web'
 import CustomSearchBox from '../UI/CustomSearchBox/CustomSearchBox'
