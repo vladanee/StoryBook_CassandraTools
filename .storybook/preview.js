@@ -1,3 +1,4 @@
+import './mocks/gatsby';
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {

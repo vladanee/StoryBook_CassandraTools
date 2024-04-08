@@ -1,0 +1,116 @@
+.footerContainer {
+  width: 100%;
+  background-color: #eff7fc;
+  .footer {
+    color: #4e4d4d;
+    padding: 60px 0;
+    width: 100%;
+    @media screen and (max-width: 1440px) {
+      width: 100%;
+      margin: auto;
+    }
+
+    a {
+      color: #4e4d4d !important;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .footerSectionTitle {
+      color: #333146;
+      font-family: Poppins, sans-serif;
+      font-size: 25px;
+      font-weight: 700 !important;
+      line-height: 30px;
+      letter-spacing: -1px;
+      margin-bottom: 35px;
+      text-transform: uppercase;
+      @media screen and (max-width:'768px') {
+        font-size: 20px;
+      }
+      @media screen and (max-width:'426px') {
+        font-size: 25px;
+      }
+    }
+    .footerLogo {
+      img {
+        height: 60px;
+      }
+    }
+    .footer-navbar {
+      margin-left: auto;
+      align-self: center;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          display: inline-block;
+          list-style: none;
+          padding: 0px 5px;
+        }
+      }
+    }
+    .anantInfo {
+      .iconsInfo {
+        color: #bebebe;
+        margin-right: 10px;
+      }
+      display: flex;
+      flex-direction: column;
+    }
+    .socialMediaContainer {
+      p {
+        font-size: 22px;
+        @media only screen and (max-width: 1024px) {
+          font-size: 16px;
+        }
+        @media only screen and (max-width: 426px) {
+          font-size: 18px;
+        }
+      }
+      a {
+        text-decoration: none;
+      }
+      .githubIcon {
+        margin-right: 10px;
+      }
+      .youtubeIcon {
+        color: #ff0302;
+        margin-right: 10px;
+      }
+      .twitterIcon {
+        color: #1da1f2;
+        margin-right: 10px;
+      }
+      .linkedinIcon {
+        color: #0a66c2;
+        margin-right: 10px;
+      }
+      .facebokIcon {
+        color: #1877f2;
+        margin-right: 10px;
+      }
+      @media screen and (max-width: 426px) {
+        text-align: center;
+      }
+    }
+    .footerCopyright {
+      padding-right: 60px !important;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .footerContainer {
+    .footer {
+      padding: 15px !important;
+      .socialMediaContainer {
+        align-items: flex-start !important;
+      }
+      .footerCopyright {
+        padding-right: 0 !important;
+      }
+    }
+  }
+}
