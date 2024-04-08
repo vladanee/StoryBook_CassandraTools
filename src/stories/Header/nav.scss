@@ -1,0 +1,59 @@
+.navMenuContainer {
+  position: sticky !important;
+  top: 0 !important;
+  right: 0;
+  left: 0;
+  z-index: 1100;
+  height: 100px;
+  .navMenu {
+    background-color: rgba(255, 255, 255, 0.729) !important;
+    box-shadow: none;
+    backdrop-filter: blur(20px) !important;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 0 auto;
+    .nav-links a {
+      transition: 0.3s all ease-in-out;
+    }
+    .nav-links a:hover {
+      font-weight: 700;
+      transform: scale(1.1);
+    }
+    .active p {
+      transform: scale(1.1);
+      font-weight: 700;
+    }
+    .menuIcon {
+      color: #000000 !important;
+    }
+    .logoContainer {
+      a {
+        color: #000000 !important;
+        font-family: 'Poppins' !important;
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: -2px;
+      }
+    }
+    .navLink {
+      span {
+        color: #333146;
+        padding: 12px 17px;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        &:hover {
+          color: #007bff !important;
+        }
+      }
+    }
+  }
+}
+
+.MuiBox-root {
+  a {
+    h6 {
+      color: black;
+    }
+  }
+}
